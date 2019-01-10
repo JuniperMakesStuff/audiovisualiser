@@ -1,3 +1,10 @@
+:root{
+  --spc:0%;
+  --x:0px;
+  --y:0px;
+  background:#000000;
+}
+
 #thefile {
   position: fixed;
   top: 10px;
@@ -27,9 +34,4 @@ audio {
   left: 10px;
   bottom: 10px;
   width: calc(100% - 20px);
-}
-:root{
-  --spc:0%;
-  --x:0px;
-  --y:0px;
 }
