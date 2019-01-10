@@ -19,6 +19,7 @@ window.onload = function() {
     var canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+    canvas.requestFullscreen();
     var ctx = canvas.getContext("2d");
 
     src.connect(analyser);
